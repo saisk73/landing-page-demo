@@ -1,0 +1,32 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+@mixin spacing {
+    margin-top: 7rem !important;
+}
+.home {
+    &__banner {
+        &__button {
+            border: 2px solid rgb(114, 114, 114);
+            background-color: white;
+        }
+    }
+    &__viewpoint {
+        @include spacing;
+        justify-content: space-between;
+    }
+    &__projects {
+        @include spacing;
+        &__image {
+            height: 18rem !important;
+            width: 100%;
+            object-fit: cover;
+        }
+        &__slideButton {
+            border: 2px solid rgb(114, 114, 114);
+            background-color: white;
+             padding-left: 0.4rem;
+            padding-right: 0.4rem;
+        }
+    }
+}

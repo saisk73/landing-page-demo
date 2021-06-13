@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <!-- cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="container">
+    <div class="d-flex m-0 py-3">
+        <div class="me-auto">
+            <h5>Logo</h1>
+        </div>
+        <div class="ms-auto d-flex align-items-center">
+            <div>
+                <a class="text-decoration-none text-dark me-3" href="">Home</a>
+                <a class="text-decoration-none text-dark me-3" href="">Home</a>
+                <a class="text-decoration-none text-dark me-3" href="">Home</a>
+                <a class="text-decoration-none text-dark me-3" href="">Home</a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex m-0">
+        <div class="col-md-5 d-flex align-items-center">
+            <div>
+                <h1 class="display-2">Interior Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem error neque unde soluta mollitia maxime praesentium vero dolorum saepe, voluptatibus consequuntur quisquam minus, culpa sint dignissimos. Corrupti sequi maiores nesciunt.</p>
+                <button class="home__banner__button px-5 py-2">Get Started</button>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <img class="w-100 h-auto" src="https://images.unsplash.com/photo-1617228133035-2347f159e755?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
+        </div>
+    </div>
+    <div class="home__viewpoint row  mx-0">
+        <div class="col-lg-3">
+            <h1 class="fw-bold">Some Viewpoint</h1>
+        </div>
+        <div class="col-lg-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestiae dolorum rem eius ut enim soluta nulla, deserunt ad dolores a, odit id. Cupiditate iste, incidunt possimus accusantium in a!</p>
+        </div>
+        <div class="col-lg-3">
+            <p>Lorem ipum ipsum repudiandae corrupti. Quam cumque, fuga excepturi placeat odit voluptas.</p>
+        </div>
+    </div>
+    <div class="home__projects">
+        <div class="row m-0">
+            <div class="col-lg-4">
+                <h1 class="fw-bold">Our Projects</h1>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestiae dolorum rem eius ut enim soluta nulla, deserunt ad dolores a, odit id. Cupiditate iste, incidunt possimus accusantium in a!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi molestiae dolorum rem eius ut enim soluta nulla, deserunt ad dolores a, odit id.</p>
+            </div>
+            <div class="col-lg-8">
+                <div id="home-projects">
+                    <div class="p-2"><img class="home__projects__image" src="https://images.unsplash.com/photo-1615471618985-97108e2ba478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="" srcset=""></div>
+                    <div class="p-2"><img class="home__projects__image" src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" srcset=""></div>
+                    <div class="p-2"><img class="home__projects__image" src="https://images.unsplash.com/photo-1527694224012-be005121c774?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="" srcset=""></div>
+                    <div class="p-2"><img class="home__projects__image" src="https://images.unsplash.com/photo-1509744645300-a2098b11871a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=375&q=80" alt="" srcset=""></div>
+                </div>
+                <div class="d-flex p-2">
+                    <button class="home__projects__slideButton me-3" id="#home-projects-prev">
+                        <img src="/icons/prev.png" alt="" srcset="">
+                    </button>
+                    <button class="home__projects__slideButton" id="#home-projects-next">
+                        <img src="/icons/next.png" alt="" srcset="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
